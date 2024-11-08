@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="main">
+            <div class="formulario">
+                <div>
+                    <h1>Formulário</h1>
+                </div>
+                <div>
+                    <div>
+                        <p>Nome</p>
+                        <input type="text" id="nome">
+                    </div>
+                    <div>
+                        <p>Endereço</p>
+                        <input type="text" id="endereco">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>CEP</p>
+                        <input type="text" id="cep" maxlength="10">
+                    </div>
+                    <div>
+                        <p>CPF</p>
+                        <input type="text" id="cpf" maxlength="14">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>Telefone</p>
+                        <input type="text" id="telefone" maxlength="15">
+                    </div>
+                    <div>
+                        <p>Cnpj</p>
+                        <input type="text" id="cnpj" maxlength="18">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p>Codigo</p>
+                        <input type="text" id="codigo" maxlength="20">
+                    </div>
+                    <div>
+                        <button onclick="save()">Enviar</button>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <div id="message"></div>
+</body>
+</html>
