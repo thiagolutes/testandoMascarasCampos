@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
         window.location.href = 'valores.html'
     }
     if (localStorage.getItem('afterDeslog') === "ok") {
-        mostrarMsg('Deslogado com sucesso', 'erro');
+        mostrarMsg('Deslogado com sucesso', 'sucesso');
         localStorage.setItem('afterDeslog', "nonOk")
     }
 });
