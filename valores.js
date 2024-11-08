@@ -23,7 +23,7 @@ let codigo
 
 function deslogar() {
     localStorage.setItem('logado', false)
-    mostrarMsg('Sucesso ao deslogar!', 'sucesso');
+    mostrarMsg('Deslogado com sucesso', 'sucesso');
     localStorage.setItem('afterDeslog', "ok")
     window.location.href='index.html'
 }
